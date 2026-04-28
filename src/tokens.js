@@ -9,6 +9,19 @@ export const tokens = {
   colorBorder: '#E0E0E0',
   colorSuccess: '#008000',
   colorError: '#CC0000',
+  // Badge colors
+  colorBadgePrimaryBackground: blue.blue3,
+  colorBadgeSuccessBackground: green.green3,
+  colorBadgeWarningBackground: yellow.yellow3,
+  colorBadgeErrorBackground: red.red3,
+
+  colorBadgePrimaryText: blue.blue11,
+  colorBadgeSuccessText: green.green11,
+  colorBadgeWarningText: yellow.yellow11,
+  colorBadgeErrorText: red.red11,
+
+  // Badge specific
+  borderRadiusBadge: '999px',
 
   // Alert/Badge backgrounds
   colorBackgroundInfo: blue.blue2,
