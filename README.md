@@ -1,13 +1,43 @@
 # Design System Components
 
-Built with React, Vite, Storybook and design tokens using Radix UI Colors.
+A collection of reusable UI components built with React, Storybook and Radix UI design tokens.
 
-## Components
-- **Button** — primary, secondary, disabled variants
-- **Card** — default, success, error variants
-- **Input** — default, focused, error, disabled variants
-- **Alert** — info, success, warning, error variants with dismiss functionality
+## 🚀 Getting Started
 
-## Setup
+### Installation
 npm install
+
+### Run Storybook
 npm run storybook
+
+## 📦 Components
+
+### Button
+- Variants: Primary, Secondary
+- States: Disabled
+
+### Card
+- Variants: Default, Success, Error
+
+### Input
+- Variants: Default, Focused, Error, Disabled
+- Features: Focus state, Error message
+
+### Alert
+- Variants: Info, Success, Warning, Error
+- Features: Dismissible, onDismiss callback, React Icons
+
+### Badge
+- Variants: Primary, Success, Warning, Error
+- Sizes: Small, Medium, Large
+- Features: Dot indicator
+
+## 🎨 Design Tokens
+Built using Radix UI Colors for consistent and accessible color usage across all components.
+
+## 🛠️ Tech Stack
+- React
+- Vite
+- Storybook
+- Radix UI Colors
+- React Icons
